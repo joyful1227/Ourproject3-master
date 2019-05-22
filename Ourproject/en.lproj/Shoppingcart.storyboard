@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gpC-ah-egD">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--購物車-->
+        <scene sceneID="Rgn-JW-qTo">
+            <objects>
+                <tableViewController id="Cbj-im-MvG" customClass="ShoppingcartTVC" customModule="Ourproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mTL-xR-DkQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="shoppingcartCell" rowHeight="150" id="Ksi-zA-ugf" customClass="ShoppingcartCell" customModule="Ourproject" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ksi-zA-ugf" id="dfo-14-Sh1">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="149.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IMp-TX-g1m">
+                                            <rect key="frame" x="40" y="11" width="120" height="120"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="IMp-TX-g1m" secondAttribute="height" multiplier="1:1" id="4gn-gx-ggU"/>
+                                                <constraint firstAttribute="width" constant="120" id="NBi-hA-eb1"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="商品名稱：" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyw-OB-5jI">
+                                            <rect key="frame" x="168" y="11" width="224" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="價格：" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cry-wW-dz5">
+                                            <rect key="frame" x="168" y="39" width="224" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="數量：7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awe-za-aBc">
+                                            <rect key="frame" x="168" y="95" width="111" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="尺寸：" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3R-jn-VwP">
+                                            <rect key="frame" x="168" y="72" width="52" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" maximumValue="9999" translatesAutoresizingMaskIntoConstraints="NO" id="Z9z-Wo-fCi">
+                                            <rect key="frame" x="287" y="96" width="94" height="29"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.94258779290000005" green="0.52374685200000004" blue="0.31067920049999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="clickAmout:" destination="Ksi-zA-ugf" eventType="valueChanged" id="lGn-b5-Pev"/>
+                                            </connections>
+                                        </stepper>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="IMp-TX-g1m" firstAttribute="leading" secondItem="dfo-14-Sh1" secondAttribute="leadingMargin" constant="20" id="ZRu-rF-l8l"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="ivImage" destination="IMp-TX-g1m" id="f7Q-Jq-dJm"/>
+                                    <outlet property="lbAmout" destination="awe-za-aBc" id="UGV-TY-GPc"/>
+                                    <outlet property="lbName" destination="Uyw-OB-5jI" id="8yu-P0-MoI"/>
+                                    <outlet property="lbPrice" destination="Cry-wW-dz5" id="ikL-fz-btR"/>
+                                    <outlet property="sAuout" destination="Z9z-Wo-fCi" id="0hd-PQ-VPI"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Cbj-im-MvG" id="OjG-RO-hwd"/>
+                            <outlet property="delegate" destination="Cbj-im-MvG" id="9Fh-VZ-pWw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="購物車" id="JOt-mS-tkW">
+                        <barButtonItem key="rightBarButtonItem" title="結帳" id="ca9-py-Wjg">
+                            <color key="tintColor" red="0.94258779290000005" green="0.52374685200000004" blue="0.31067920049999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="qTE-N0-5ug" kind="show" id="r91-7v-pgP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVK-be-R4M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1462.3188405797102" y="-521.65178571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cpf-JF-9q0">
+            <objects>
+                <viewController id="qTE-N0-5ug" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T7y-th-EMa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.94258779290000005" green="0.52374685200000004" blue="0.31067920049999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="lJu-ZV-yaW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="foq-6B-Nv8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2283" y="-533"/>
+        </scene>
+        <!--購物車-->
+        <scene sceneID="iE0-ny-ehb">
+            <objects>
+                <navigationController id="gpC-ah-egD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="購物車" image="shoppingcart" id="iwF-Vt-vjb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hYw-tM-Olt">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Cbj-im-MvG" kind="relationship" relationship="rootViewController" id="obD-A1-qd2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Sm-Sg-SRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="-555"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shoppingcart" width="24" height="24"/>
+    </resources>
+    <color key="tintColor" red="0.94258779290000005" green="0.52374685200000004" blue="0.31067920049999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+</document>

@@ -1,0 +1,168 @@
+
+/* Class = "UILabel"; text = "商品名稱"; ObjectID = "0N5-D9-Sw6"; */
+"0N5-D9-Sw6.text" = "商品名稱";
+
+/* Class = "UISegmentedControl"; 5LN-j0-GfH.segmentTitles[0] = "First"; ObjectID = "5LN-j0-GfH"; */
+"5LN-j0-GfH.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; 5LN-j0-GfH.segmentTitles[1] = "Second"; ObjectID = "5LN-j0-GfH"; */
+"5LN-j0-GfH.segmentTitles[1]" = "Second";
+
+/* Class = "UIButton"; normalTitle = "觀看評價"; ObjectID = "6d5-wk-mJP"; */
+"6d5-wk-mJP.normalTitle" = "觀看評價";
+
+/* Class = "UITabBarItem"; title = "首頁"; ObjectID = "9PD-cd-B4q"; */
+"9PD-cd-B4q.title" = "首頁";
+
+/* Class = "UILabel"; text = "店家資訊:"; ObjectID = "9TF-1z-eKV"; */
+"9TF-1z-eKV.text" = "店家資訊:";
+
+/* Class = "UILabel"; text = "高雄新光三越"; ObjectID = "ATS-sn-rBY"; */
+"ATS-sn-rBY.text" = "高雄新光三越";
+
+/* Class = "UITextField"; placeholder = "密碼"; ObjectID = "B0a-8s-tyG"; */
+"B0a-8s-tyG.placeholder" = "密碼";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Blh-LK-djw"; */
+"Blh-LK-djw.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "價格"; ObjectID = "Cry-wW-dz5"; */
+"Cry-wW-dz5.text" = "價格";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "D3m-bV-FHX"; */
+"D3m-bV-FHX.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "導航"; ObjectID = "DYZ-rT-HiI"; */
+"DYZ-rT-HiI.normalTitle" = "導航";
+
+/* Class = "UITextField"; placeholder = "電話"; ObjectID = "Ei9-nf-hCe"; */
+"Ei9-nf-hCe.placeholder" = "電話";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "F5G-gH-KaS"; */
+"F5G-gH-KaS.placeholder" = "E-mail";
+
+/* Class = "UIButton"; normalTitle = "關於店家"; ObjectID = "Fch-32-sqh"; */
+"Fch-32-sqh.normalTitle" = "關於店家";
+
+/* Class = "UILabel"; text = "台中新光三越"; ObjectID = "IwR-G7-jcf"; */
+"IwR-G7-jcf.text" = "台中新光三越";
+
+/* Class = "UIButton"; normalTitle = "訂單查詢"; ObjectID = "J4V-fq-iwg"; */
+"J4V-fq-iwg.normalTitle" = "訂單查詢";
+
+/* Class = "UINavigationItem"; title = "購物車"; ObjectID = "JOt-mS-tkW"; */
+"JOt-mS-tkW.title" = "購物車";
+
+/* Class = "UILabel"; text = "帳號"; ObjectID = "K3I-I5-5Qc"; */
+"K3I-I5-5Qc.text" = "帳號";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "M0D-QB-FlJ"; */
+"M0D-QB-FlJ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "加入購物車"; ObjectID = "MVH-v0-ni2"; */
+"MVH-v0-ni2.normalTitle" = "加入購物車";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Msj-T1-ZUY"; */
+"Msj-T1-ZUY.text" = "Label";
+
+/* Class = "UILabel"; text = "商品名稱"; ObjectID = "Q4Y-kf-Tks"; */
+"Q4Y-kf-Tks.text" = "商品名稱";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Q8R-2w-kmb"; */
+"Q8R-2w-kmb.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "導航"; ObjectID = "QOw-Q4-hHn"; */
+"QOw-Q4-hHn.normalTitle" = "導航";
+
+/* Class = "UILabel"; text = "積分"; ObjectID = "QRA-KK-FK6"; */
+"QRA-KK-FK6.text" = "積分";
+
+/* Class = "UILabel"; text = "商品名稱"; ObjectID = "SPM-2f-krI"; */
+"SPM-2f-krI.text" = "商品名稱";
+
+/* Class = "UIButton"; normalTitle = "送出"; ObjectID = "U4e-v4-WoW"; */
+"U4e-v4-WoW.normalTitle" = "送出";
+
+/* Class = "UILabel"; text = "商品名稱"; ObjectID = "Uyw-OB-5jI"; */
+"Uyw-OB-5jI.text" = "商品名稱";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "VFK-aB-kM8"; */
+"VFK-aB-kM8.title" = "Root View Controller";
+
+/* Class = "UIButton"; normalTitle = "登出"; ObjectID = "VUN-8U-0wv"; */
+"VUN-8U-0wv.normalTitle" = "登出";
+
+/* Class = "UIButton"; normalTitle = "導航"; ObjectID = "VYe-5R-Lbw"; */
+"VYe-5R-Lbw.normalTitle" = "導航";
+
+/* Class = "UITextField"; placeholder = "密碼確認"; ObjectID = "WBX-d2-jEw"; */
+"WBX-d2-jEw.placeholder" = "密碼確認";
+
+/* Class = "UITextField"; placeholder = "住址"; ObjectID = "WPt-0t-4co"; */
+"WPt-0t-4co.placeholder" = "住址";
+
+/* Class = "UILabel"; text = "暱稱"; ObjectID = "Wze-j3-qh8"; */
+"Wze-j3-qh8.text" = "暱稱";
+
+/* Class = "UILabel"; text = "實體店面資訊"; ObjectID = "ZQw-bZ-gPH"; */
+"ZQw-bZ-gPH.text" = "實體店面資訊";
+
+/* Class = "UILabel"; text = "台北新光三越"; ObjectID = "aMm-g7-x5V"; */
+"aMm-g7-x5V.text" = "台北新光三越";
+
+/* Class = "UILabel"; text = "數量"; ObjectID = "awe-za-aBc"; */
+"awe-za-aBc.text" = "數量";
+
+/* Class = "UIBarButtonItem"; title = "結帳"; ObjectID = "ca9-py-Wjg"; */
+"ca9-py-Wjg.title" = "結帳";
+
+/* Class = "UILabel"; text = "價格"; ObjectID = "hai-Pt-vvY"; */
+"hai-Pt-vvY.text" = "價格";
+
+/* Class = "UISegmentedControl"; iLQ-hD-Uhp.segmentTitles[0] = "Ｓ"; ObjectID = "iLQ-hD-Uhp"; */
+"iLQ-hD-Uhp.segmentTitles[0]" = "Ｓ";
+
+/* Class = "UISegmentedControl"; iLQ-hD-Uhp.segmentTitles[1] = "Ｍ"; ObjectID = "iLQ-hD-Uhp"; */
+"iLQ-hD-Uhp.segmentTitles[1]" = "Ｍ";
+
+/* Class = "UISegmentedControl"; iLQ-hD-Uhp.segmentTitles[2] = "Ｌ"; ObjectID = "iLQ-hD-Uhp"; */
+"iLQ-hD-Uhp.segmentTitles[2]" = "Ｌ";
+
+/* Class = "UITabBarItem"; title = "購物車"; ObjectID = "iwF-Vt-vjb"; */
+"iwF-Vt-vjb.title" = "購物車";
+
+/* Class = "UIButton"; normalTitle = "我的收藏商品"; ObjectID = "jGz-dr-JQY"; */
+"jGz-dr-JQY.normalTitle" = "我的收藏商品";
+
+/* Class = "UITabBarItem"; title = "搜尋分類"; ObjectID = "lGE-1c-8xu"; */
+"lGE-1c-8xu.title" = "搜尋分類";
+
+/* Class = "UIButton"; normalTitle = "修改個人資料"; ObjectID = "lWA-14-PBr"; */
+"lWA-14-PBr.normalTitle" = "修改個人資料";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lgv-tV-hjI"; */
+"lgv-tV-hjI.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "個人資料"; ObjectID = "mab-HQ-QiK"; */
+"mab-HQ-QiK.title" = "個人資料";
+
+/* Class = "UIButton"; normalTitle = "立刻註冊"; ObjectID = "nV3-zt-iNd"; */
+"nV3-zt-iNd.normalTitle" = "立刻註冊";
+
+/* Class = "UISegmentedControl"; rRu-L8-Nji.segmentTitles[0] = "First"; ObjectID = "rRu-L8-Nji"; */
+"rRu-L8-Nji.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; rRu-L8-Nji.segmentTitles[1] = "Second"; ObjectID = "rRu-L8-Nji"; */
+"rRu-L8-Nji.segmentTitles[1]" = "Second";
+
+/* Class = "UINavigationItem"; title = "商品分類"; ObjectID = "tpk-vc-VAp"; */
+"tpk-vc-VAp.title" = "商品分類";
+
+/* Class = "UITabBarItem"; title = "通知"; ObjectID = "vOM-wo-Bl7"; */
+"vOM-wo-Bl7.title" = "通知";
+
+/* Class = "UILabel"; text = "價格"; ObjectID = "vjy-fn-qw4"; */
+"vjy-fn-qw4.text" = "價格";
+
+/* Class = "UITextField"; placeholder = "姓名"; ObjectID = "wsW-Hh-oge"; */
+"wsW-Hh-oge.placeholder" = "姓名";
